@@ -1,0 +1,76 @@
+\documentclass[letterpaper,11pt]{letter}
+\usepackage{graphicx, fullpage}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+%\RequirePackage{booktabs}
+%\newenvironment{commontabular}[2]
+%  {\begin{tabular}{ll}
+%   \end{tabular}}
+\pagestyle{fancy}
+\fancyhf{}
+\chead{  \includegraphics[scale=0.35]{BPletterHead.png}  }
+% pdflatex <filename>
+%\cfoot{  (\includegraphics [width=\textwidth] {foot.png})  }
+ \definecolor{crimson}{RGB}{220,20,60}
+\cfoot{  \small \color{crimson}Biomedical Research Center, Room 466, 975 NE 10th St, Oklahoma City, Oklahoma 73104 \\
+Office:  (405) 271-8300  Lab:   (405) 271-8313  FAX:  (405) 271-3910 blaine-mooers@ouhsc.edu   \\
+https://medicine.ouhsc.edu/academic-departments/biochemistry-and-physiology}
+% Some of the article customisations are relevant for this class
+
+% Alternatively, these may be set on an individual basis within each letter environment.
+%  end of preamble
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+%\renewcommand{\footrule}{\color{red}}
+\def\mydoubleq#1{``#1''}
+\def\mysingleq#1{`#1'}
+\headheight 80pt              %% put this outside
+\headsep 1pt                 %% put this outside
+\voffset  -20pt
+\textheight 580pt
+\begin{document}
+\begin{letter}
+\\
+\today \\
+\\
+PLOS Computational Biology\\
+\\
+RE: manuscript submission \\
+\\
+Dear Editor,\\
+
+Please find attached the enclosed paper titled \emph{Fifteen quick tips for using coding assistants to configure Emacs} as part of the Education track.
+Learning how to use Emacs is on the bucket list of many scientists because of the high-level popularity of org-mode for preparing research articles, books, slides, and posters and for managing projects and time.
+Org-mode was developed by an astronomer, Carsten Dominik, early in his career to organize his work.
+His use of Emacs has not harmed him, so he had a very successful and is at the top of his field.
+
+This paper provides suggestions on how to utilize on-line coding assistants to help customize Emacs to meet the needs of the user's scientific workflows.
+The Emacs initialization file is written in Emacs Lisp which enables rapid development but which also baffles beginners due to its forest of parentheses.
+The coding assistants can return code and explain it thereby helping users at all levels overcome many obstacles, thereby saving them time and reducing their frustration.
+However, the coding assistants as tutors are limited by their tunnel vision due to a lack of awareness of the full context.
+Nonetheless, they are still useful because they never tire of answering prompts.
+We focus on on-line coding assistants because their use requires only installing browser plugins.  
+
+We have developed these tips without assistance from chatbots, so the tips are original with us.
+Some tips may be relatively obvious to some readers, but others are not so obvious.
+However, we did use coding assistants to develop some of the code that we mention in the paper.
+We also include links to our software on GitHub and Zenodo that users can utilize to enhance their Emacs learning journey.
+We think that this paper will be of broad interest because the tips can be translated to other programming languages and coding assistants.
+
+This paper has not been submitted to any other journal.
+We have supplied a list of potential reviewers.
+
+\vskip 1em
+{Best regards,} \\
+{\includegraphics[width=70mm]{BlainesSignature.png}}\\
+{Blaine H. M. Mooers, PhD \\ Associate Professor of Biochemistry and Physiology}
+
+%\cc{} % people this letter is cc-ed to
+%\encl{} % list of anything enclosed
+%\ps{} % any post scriptums. ``PS'' labels must be put in manually
+
+\end{letter}
+\end{document}
+
