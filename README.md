@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=cover-letter-template-latex&message=0.0&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=cover-letter-template-in-latex&message=0.0&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
